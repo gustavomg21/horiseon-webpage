@@ -17,4 +17,10 @@ Implementing improvements to the horiseon webpage
 
 *  New comentary for better understanding of the code was added
 
-![preview of the of the page.](.02-Challenge/Assets/01-html-css-git-homework-demo.png)
+## Deployed aplication
+https://gustavomg21.github.io/horiseon-webpage/
+
+##Preview
+![image](https://github.com/gustavomg21/horiseon-webpage/assets/45185442/fed4b3b4-1e27-4936-80c8-7001ff4d4e62)
+![image](https://github.com/gustavomg21/horiseon-webpage/assets/45185442/24eb8d3f-b2dd-40ef-a461-7a3641968c47)
+![image](https://github.com/gustavomg21/horiseon-webpage/assets/45185442/83a5092e-d7bc-49c4-83ec-c09a21f96071)
