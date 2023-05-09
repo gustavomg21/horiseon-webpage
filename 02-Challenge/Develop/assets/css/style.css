@@ -1,36 +1,36 @@
-/*All elements will start with the following standard */
+/* All elements will start with the following standard */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/*This part sets the background color */
+/* This part sets the background color */
 body {
     background-color: #d9dcd6;
 }
 
-/*This part will determine padding font background and color of the header */
+/* This part will determine padding font background and color of the header */
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-/*This is the companies name on the header */
+/* This is the company's name on the header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/*The seo part of horiseon has a different color */
+/* The "seo" part of horiseon has a different color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-/*This part styles the links for the sections of the webpages on the header */
-.header div {
+/* This part styles the links for the sections of the webpages on the header */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,24 +38,24 @@ body {
     font-size: 20px;
 }
 
-/*This part organizes the items for the header bar*/
-.header div ul li {
+/* This part organizes the items for the header bar */
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* This part styles the items for the header bar*/
-a {
+/* This part styles the items for the header bar */
+.header nav a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* Font size for the paragraphs*/
+/* Font size for the paragraphs */
 p {
     font-size: 16px;
 }
 
-/*This part adds and styles the cover image for the page*/
+/* This part adds and styles the cover image for the page */
 .hero {
     height: 800px;
     width: 100%;
@@ -65,7 +65,7 @@ p {
     background-position: center;
 }
 
-/*this parts helps with the image positioning*/
+/* This parts helps with the image positioning */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -75,14 +75,14 @@ p {
     margin-left: 25px;
 }
 
-/* Makes space for the benefits square*/
+/* Makes space for the benefits square */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/*this part sets up the benefits section of the webpage */
+/* This part sets up the benefits section of the webpage */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -94,27 +94,32 @@ p {
     background-color: #2589bd;
 }
 
-/*Margin and color for the benefits paragraphs*/
-.benefit-lead, .benefit-brand, .benefit-cost{
+/* Margin and color for the benefits paragraphs */
+.benefits .benefit-lead, .benefits .benefit-brand, .benefits .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*Fixes the placement of the headers for the benefit section*/
-.benefit-lead h3,.benefit-brand h3, .benefit-cost h3  {
+/* Fixes the placement of the headers for the benefit section */
+.benefits .benefit-lead h3, .benefits .benefit-brand h3, .benefits .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*Fixes the placement of the images for the benefit section*/
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+
+/* Fixes the placement of the images for the benefit section */
+.benefits .benefit-lead img,
+.benefits .benefit-brand img,
+.benefits .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/*This part helps with the placement background and font color of the information paragraphs*/
-.search-engine-optimization,.online-reputation-management,.social-media-marketing {
+/* This part helps with the placement, background, and font color of the information paragraphs */
+.content .search-engine-optimization,
+.content .online-reputation-management,
+.content .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -123,24 +128,32 @@ p {
     color: #ffffff;
 }
 
-/*Helps with the image placement*/
-.search-engine-optimization img, .social-media-marketing img,.online-reputation-management img {
+/* Helps with the image placement */
+.content .search-engine-optimization img,
+.content .online-reputation-management img,
+.content .social-media-marketing img {
     max-height: 200px;
 }
 
-/*Helps with the header placement*/
-.search-engine-optimization h2, .social-media-marketing h2, .online-reputation-management h2 {
+/* Helps with the header placement */
+.content .search-engine-optimization h2,
+.content .online-reputation-management h2,
+.content .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Styling for the footer */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    background-color: #2a607c;
+    color: #ffffff;
 }
 
+/* Font size for the footer */
 .footer h2 {
     font-size: 20px;
 }
